@@ -36,6 +36,6 @@ const api = {
 };
 
 console.log(calculaMedia(api.items));
-console.log(buscaMenorPreco(api.items));
+console.log(buscaMenorPreco(api.items)?.descricao);
 console.log(filtraCodigoProduto(api.items,"0002"));
 console.log(filtraNomeProduto(api.items,"PS5"));
